@@ -9,3 +9,4 @@ def count_containers():
         print(f"{i}: {container.name} (ID: {container.short_id})")
         return containers
     
+count_containers()
